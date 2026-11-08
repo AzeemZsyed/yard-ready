@@ -1,0 +1,3 @@
+# Copy this file to local.properties (Android Studio also adds sdk.dir here).
+# Get a free key at https://home.openweathermap.org/api_keys
+OPENWEATHER_API_KEY=your_key_here

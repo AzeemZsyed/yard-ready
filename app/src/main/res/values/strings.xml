@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yard Ready</string>
+
+    <!-- Dashboard -->
+    <string name="welcome_title">Welcome to Yard Ready</string>
+    <string name="welcome_body">Pick your city to get the best times to mow the lawn and clear the snow.</string>
+    <string name="set_location">Set location</string>
+    <string name="retry">Retry</string>
+    <string name="updated_at">Updated %1$s</string>
+    <string name="outlook_title">5-day outlook</string>
+
+    <string name="lawn_title">LAWN</string>
+    <string name="mow_best_time">Best time to mow: %1$s</string>
+    <string name="mow_not_needed">No need to mow yet</string>
+    <string name="mow_next_due">Your lawn should be ready again around %1$s.</string>
+    <string name="mow_no_window">No good mowing window</string>
+    <string name="mow_off_season">Mowing season is over</string>
+    <string name="mow_off_season_details">It\'s too cold for grass to grow this week.</string>
+    <string name="last_mowed">Last mowed %1$s</string>
+    <string name="never_mowed">No mowing logged yet</string>
+    <string name="mark_mowed">Mark as mowed</string>
+    <string name="logged_mow">Mowing saved to your history</string>
+
+    <string name="snow_title">SNOW</string>
+    <string name="snow_none">No snow in the forecast</string>
+    <string name="snow_none_details">The next 5 days look clear.</string>
+    <string name="snow_expected">About %1$s of snow from %2$s</string>
+    <string name="snow_totals">Next 24 h: %1$s · next 48 h: %2$s</string>
+    <string name="snow_clear_at">Best time to clear: %1$s</string>
+    <string name="snow_light">Light snow, so you probably won\'t need to shovel</string>
+    <string name="snow_mid_storm">Heavy storm: do a first pass around %1$s</string>
+    <string name="snow_alert_banner">Snowfall alert: %1$s expected in the next 24 hours</string>
+    <string name="last_cleared">Last cleared %1$s</string>
+    <string name="never_cleared">No snow clearing logged yet</string>
+    <string name="mark_cleared">Mark snow cleared</string>
+    <string name="logged_snow">Snow clearing saved to your history</string>
+
+    <string name="temp_range">%1$s / %2$s</string>
+    <string name="daily_snow">❄ %1$s</string>
+    <string name="daily_pop">💧 %1$d%%</string>
+
+    <!-- Menu -->
+    <string name="action_refresh">Refresh</string>
+    <string name="action_history">History</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- History -->
+    <string name="history_title">Maintenance history</string>
+    <string name="history_empty">Nothing logged yet. Tap “Mark as mowed” or “Mark snow cleared” on the home screen.</string>
+    <string name="history_stats">Past 12 months: mowed %1$d times · cleared snow %2$d times. Swipe an entry to delete it.</string>
+    <string name="task_mow">Mowed the lawn</string>
+    <string name="task_clear_snow">Cleared snow</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="location_section">Location</string>
+    <string name="current_location">Current: %1$s</string>
+    <string name="no_location_yet">No location set yet</string>
+    <string name="search_hint">City name</string>
+    <string name="search">Search</string>
+    <string name="alerts_section">Snowfall alerts</string>
+    <string name="alerts_switch">Notify me before snow arrives</string>
+    <string name="threshold_value">Alert when at least %1$d cm is expected in 24 hours</string>
+    <string name="threshold_description">Snowfall alert threshold in centimetres</string>
+    <string name="threshold_help">Forecasts are checked every 6 hours in the background, and you get one notification per storm.</string>
+
+    <!-- Notifications -->
+    <string name="channel_snow_alerts">Snowfall alerts</string>
+    <string name="channel_snow_alerts_description">Warnings when significant snow is expected</string>
+    <string name="notification_snow_title">%1$s of snow expected in %2$s</string>
+    <string name="notification_snow_text">Starting %1$s. Open Yard Ready for the best time to clear it.</string>
+</resources>
